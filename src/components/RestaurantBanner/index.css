@@ -1,0 +1,131 @@
+.restaurant-banner {
+  margin-bottom: 24px;
+  display: flex;
+  background-image: url('https://res.cloudinary.com/gokulc/image/upload/v1678466870/Frame_279_sn6deq.png');
+}
+@media screen and (max-width: 300px) {
+  .restaurant-banner {
+    flex-direction: column;
+    padding-bottom: 8px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .restaurant-name {
+    font-size: 10px;
+  }
+}
+.restaurant-image {
+  width: 160px;
+  height: 160px;
+  align-items: flex-start;
+  border-bottom-right-radius: 100px;
+}
+
+.restaurant-details-container {
+  padding: 24px 16px;
+  align-self: center;
+}
+
+.restaurant-name {
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.restaurant-cuisine {
+  color: #eeeeee;
+  font-size: 12px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.restaurant-location {
+  color: #eeeeee;
+  font-size: 10px;
+  margin-top: 0;
+  line-height: 1.4;
+  margin-bottom: 12px;
+}
+
+.restaurant-banner-sub-container {
+  display: flex;
+}
+
+.restaurant-rating-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2px;
+}
+
+.restaurant-star-icon {
+  color: #ffffff;
+  font-size: 10px;
+  margin-right: 2px;
+}
+
+.restaurant-rating {
+  margin: 0;
+  color: #eeeeee;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.restaurant-reviews {
+  margin: 0;
+  color: #e2e8f0;
+  font-size: 10px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-banner {
+    margin-bottom: 36px;
+    align-items: center;
+    flex-direction: row;
+    padding: 25px 48px;
+  }
+
+  .restaurant-image {
+    width: 280px;
+    height: auto;
+    /* aspect-ratio: 5/3.35; */
+    border-radius: 16px;
+  }
+
+  .restaurant-details-container {
+    margin-left: 24px;
+    padding: 0;
+  }
+
+  .restaurant-name {
+    font-size: 24px;
+  }
+  .restaurant-cuisine {
+    font-size: 14px;
+  }
+  .restaurant-location {
+    font-size: 14px;
+  }
+  .restaurant-rating {
+    font-size: 14px;
+  }
+  .restaurant-reviews {
+    font-size: 14px;
+  }
+  .restaurant-rating {
+    font-size: 14px;
+  }
+  .restaurant-star-icon {
+    font-size: 14px;
+  }
+  .food-items-container {
+    padding: 0 48px;
+    margin-bottom: 36px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-banner {
+    padding: 36px 100px;
+    margin-bottom: 48px;
+  }
+}

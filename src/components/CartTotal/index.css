@@ -1,0 +1,58 @@
+.cart-hr-line {
+  border: 1px dashed #cbd2d9;
+  width: 100%;
+}
+
+.cart-total-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  color: #3e4c59;
+}
+
+.total-price {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 15px;
+  text-align: right;
+  color: #3e4c59;
+}
+
+.order-button {
+  background: #f7931e;
+  border-radius: 3px;
+  color: #ffffff;
+  padding: 4px 8px;
+  border: none;
+  font-size: 10px;
+}
+.rupee-icon {
+  font-size: 12px;
+}
+@media screen and (min-width: 768px) {
+  .total-text {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .total-price {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .order-button {
+    font-size: 15px;
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+  .rupee-icon {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,86 @@
+.restaurant-li {
+  width: 100%;
+  margin-bottom: 28px;
+}
+
+.li-restaurant-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.li-restaurant-image {
+  width: 150px;
+  height: 120px;
+
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+.li-restaurant-container {
+  margin-left: 16px;
+}
+
+.li-restaurant-name {
+  color: #334155;
+  font-size: 17px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.li-restaurant-type {
+  color: #64748b;
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 6px;
+}
+
+.li-restaurant-ratings-container {
+  display: flex;
+  align-items: center;
+}
+
+.li-star-icon {
+  font-size: 16px;
+}
+
+.li-restaurant-rating {
+  color: #1e293b;
+  font-size: 14px;
+  margin: 0 4px;
+}
+
+.li-restaurant-ratings-count {
+  color: #64748b;
+  font-size: 12px;
+  margin: 0;
+}
+@media screen and (max-width: 567px) {
+  .li-restaurant-name {
+    font-size: 13px;
+  }
+  .li-restaurant-ratings-count {
+    font-size: 10px;
+  }
+  .li-restaurant-rating {
+    font-size: 12px;
+  }
+  .li-restaurant-type {
+    font-size: 10px;
+  }
+  .li-star-icon {
+    font-size: 12px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .restaurant-li {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .restaurant-li {
+    width: 33.33%;
+    min-width: 300px;
+  }
+}

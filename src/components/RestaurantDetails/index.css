@@ -1,0 +1,38 @@
+.food-items-list {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  flex-wrap: wrap;
+  padding: 0 24px;
+  margin-left: 0;
+  margin-top: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-items-list {
+    justify-content: flex-start;
+    margin: auto;
+    margin-top: 35px;
+    padding: 0 48px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .food-items-list {
+    margin-top: 35px;
+    padding: 0 48px;
+  }
+}
+
+.restaurant-loader {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  .food-items-list {
+    padding: 0 100px;
+  }
+}

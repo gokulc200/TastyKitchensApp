@@ -1,0 +1,145 @@
+.foodItem {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  justify-content: flex-start;
+  text-align: center;
+}
+@media screen and (min-width: 567px) {
+  .foodItem {
+    width: 100%;
+  }
+}
+
+.food-item-image {
+  width: 250px;
+  height: 150px;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 425px) {
+  .food-item-image {
+    width: 160px;
+    height: 130px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .foodItem {
+    width: 45%;
+    margin-right: 20px;
+  }
+  .food-item-image {
+    width: 200px;
+    height: 140px;
+  }
+}
+.food-item-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.food-item-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin: 0px;
+  text-align: left;
+}
+
+@media screen and (min-width: 425px) {
+  .food-item-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+
+.cost-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-cost {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .food-item-cost {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.rating-cont {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0px;
+}
+
+.add-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 16px;
+  border: 2px solid #ffa412;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 80px;
+  height: 35px;
+  background: none;
+}
+
+.cart-btn-qty-cont {
+  display: flex;
+  align-items: center;
+}
+
+.decrement-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.increment-count {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.icon-btn {
+  color: #475569;
+  width: 20px;
+  height: 20px;
+}
+
+.active-count {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #475569;
+}
